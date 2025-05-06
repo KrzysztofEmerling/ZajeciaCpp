@@ -160,7 +160,7 @@ Kierunek adresowania pamięci
 - nazwać program: ZadAdresowaniePamieci.cc
 
 
-Zadanie 3.8 (LArytmetykaWskaznikowTablice.cc)
+Zadanie 3.8 (LArytmetykaWskaznikowTablice.cc)*
 -------------------------------------
 Operacje na tablicy przy użyciu wskaźników
 Napisz program, który:
@@ -171,7 +171,7 @@ Napisz program, który:
 Nazwać program: ZadArytmetykaWskaznikowTabliceA.cc
 
 
-Zadanie 3.9 (LArytmetykaWskaznikowTablice.cc)
+Zadanie 3.9 (LArytmetykaWskaznikowTablice.cc)*
 -------------------------------------
 Operacje na dwóch tablicach z użyciem wskaźników
 Napisz program, który:
@@ -189,7 +189,7 @@ Wypisać adresy poszczególnych elementów.
 - nazwać program: ZadArytmetykaWskaznikowTablica2D.cc
 
 
-Zadanie 3.11 (LArytmetykaWskaznikow.cc)
+Zadanie 3.11 (LArytmetykaWskaznikow.cc)*
 -------------------------------------
 Co robią poniższe operacje? Napisać program który pokazuje ich działanie.
 1. Funkcja1()
@@ -221,7 +221,7 @@ przy początkowych wartościach zmiennych: int a = 0, b = 0, c = 0;
 - nazwać program: ZadArytmetykaWskaznikow.cc
 
 
-Zadanie 3.12 (LOperatoryPrzypisania.cc)
+Zadanie 3.12 (LOperatoryPrzypisania.cc)*
 -------------------------------------
 Napisać program z przykładami:
 (1) operatorow arytmetycznych i (2) operatorow przypisania
@@ -247,7 +247,7 @@ Napisać program przeliczający
   (github) LPrzeliczanieDec2BinB.cc
 
 
-Zadanie 3.15 (LBitoweOperatoryLogiczneB.c i ..czneC.cc)
+Zadanie 3.15 (LBitoweOperatoryLogiczneB.c i ..czneC.cc)*
 -------------------------------------
 Proszę napisać samodziely program który jako argument będzie przyjmował tablice 8
 elementową, gdzie na poszczególnych pozycjach tablicy będzie 0 lub 1. Program będzie

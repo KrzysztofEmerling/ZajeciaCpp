@@ -1,33 +1,28 @@
 #include <iostream>
 #define ROZMIAR 5
-
-int maxTabElement(const int* tab, size_t len)
-{
-    if(len > 0)
-    {
-        int max = *tab++;
-        for(int i = 1; i < len; i++)
-        {
-            int candidat = *tab++;
-            if(candidat > max)
-            {
-                max = candidat;
-            }
-        }
-        return max;
-    }
-    return -1;
-}
+#define ROZMIAR1 3
 
 int main()
 {
-    int tab[ROZMIAR];
+    int tab[ROZMIAR][ROZMIAR1];
 
-    for( int i = 0; i < ROZMIAR; i++)
+    for (int i = 0; i < ROZMIAR; i++)
     {
-        tab[i] = i;
+        for (int j = 0; j < ROZMIAR1; j++)
+        {
+            tab[i][j] = i * ROZMIAR + j;
+        }
     }
 
-    std::cout << "Maksymalny element tablicy: " << maxTabElement(tab, ROZMIAR) << std::endl;
+    std::cout << "Adresy elementów tablicy:\n";
+    for (int i = 0; i < ROZMIAR; i++)
+    {
+        for (int j = 0; j < ROZMIAR1; j++)
+        {
+            std::cout << "&tab[" << i << "][" << j << "] = " << &tab[i][j] << "   ";
+        }
+        std::cout << std::endl;
+    }
 
+    return 0;
 }
