@@ -1,9 +1,7 @@
 #include <iostream>
-#include <string>
 using String = std::string;
 
-
-int main() 
+int main()
 {
     String str = "Hello, World!";
     String str1 = "C++ Programming";
@@ -21,9 +19,12 @@ int main()
     std::cout << "Length of str2: " << str2.length() << std::endl;
 
     // 3. at()
-    try {
+    try
+    {
         std::cout << "Character at index 7: " << str.at(8) << std::endl;
-    } catch (const std::out_of_range& e) {
+    }
+    catch (const std::out_of_range &e)
+    {
         std::cout << "Out of range error: " << e.what() << std::endl;
     }
 
