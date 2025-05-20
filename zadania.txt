@@ -295,8 +295,8 @@ Zadanie 4.2
 Napisz program pokazujący funkcjonalność:
 - wypisywania na ekran,
 - +zapisywanie do strumienia błędów
-- zapisywania do pliku,
-- odczytywania z pliku,
+//- zapisywania do pliku,
+//- odczytywania z pliku,
 - nazwać program: ZadCinCoutFile.cc
 
 
@@ -315,7 +315,7 @@ Napisz program, który wyświetli tabelę produktów w następującym formacie:
 |----------------|---------|-------|
 | Chleb          |   4.99  |    5  |
 | Mleko          |   3.20  |   10  |
-| Jajka (10szt)  |   8.50  |    3  |
+| Jajka (10 szt) |   8.50  |    3  |
 
 - Użyj manipulatorów setw, left i right do wyrównania kolumn
 - Ceny wyświetl z dokładnością do 2 miejsc po przecinku
@@ -358,20 +358,6 @@ Złoty podział  1.61803                1.618034           1.618034e+00
 - nazwij program: ZadDaneNaukoweFormat.cc
 
 
-
-
-
-
------> Powyższe do wykonania po zajęciach 2025.05.07
-
-
-
-
-
-
-
-
-
 Zadanie 4.7
 --------------------------------------
 Napisz program sprawdzający czy liczba jest parzysta/nieparzysta:
@@ -402,9 +388,62 @@ Napisz program pokazujący działanie instrukcji (każda jako osobna funkcja; tr
 Zadanie 4.10
 --------------------------------------
 Napisz program wykorzystujący instrukcje 'switch' gdzie:
-- zamiast pojedynczego znaku będzie sprawdzane całe słowo
+- zamiast pojedynczego znaku będzie sprawdzane całe słowo (czy da się to zrobić bezpośrednio?)
 - program może być uszczegółowieniem/modyfikacją (zrobić kopie pliku i zmienić kopie) tego co jest w ZadParzysteCase.cc
 - nazwać program: ZadSwitch.cc
+
+
+Zadanie 4.11
+-------------------------------------
+Zmodyfikuj program LFor.cc, aby wypisywał liczby nieparzyste zamiast parzystych.
+Dodaj kolejną pętlę, która wypisze liczby podzielne przez 7.
+Nazwij program: ZadStudent/ZadForA.cc
+
+
+Zadanie 4.12
+-------------------------------------
+Dodaj do programu ZadStudent/LSilnia.cc sprawdzanie, czy podana liczba jest większa lub równa zero (silnia jest zdefiniowana tylko dla liczb nieujemnych).
+Zmodyfikuj program, aby obliczał sumę silni od 1 do n.
+
+
+Zadanie 4.13
+-------------------------------------
+Zmodyfikuj program ZadStudent/LKsztalt.cc, aby rysował trójkąt równoramienny.
+Dodaj pętlę, która narysuje "piramidę" z liczb (np. 1, 2 2, 3 3 3).
+
+
+Zadanie 4.14
+------------------------------------
+Zmodyfikuj program ZadStudent/LWhileA.cc, aby zliczał również liczbę wprowadzonych wartości.
+Dodaj sprawdzanie, czy podana liczba jest dodatnia – jeśli nie, program ma wypisać komunikat.
+
+
+Zadanie 4.15
+------------------------------------
+W programie ZadStudent/LGra.cc ogranicz liczbę prób do 10. Jeśli gracz nie zgadnie, program ma wyświetlić prawidłową liczbę.
+Dodaj poziomy trudności (np. zakres 1-50 dla łatwego, 1-200 dla trudnego).
+
+
+Zadanie 4.16
+------------------------------------
+Napisz program ZadStudent.cc, do zrobienia prostej bazy studentów z wykorzystaniem std:vector, z fuknjonalnością:
+- Dodaj studenta
+- Usun studenta
+- Wyswietl liste
+- Sortuj liste (alfabetycznie)
+- Sprawdz, czy student istnieje
+Spróbj napisać program sam. Jeśli się uda ti super, jeśli nie to przykład jest w ZadStudent/LVectorStudent.cc.
+Jeśli nie napisałeś sam programu (jeśli napisałeś) zmodyfikuj program, aby przechowywał nie tylko imiona, ale także nazwiska i numery indeksów (użyj struct Student).
+Dodaj walidację danych (np. sprawdzanie, czy imię nie jest puste lub czy numer indeksu jest unikalny).
+
+
+
+
+-----> Powyższe do wykonania po zajęciach 2025.05.14
+
+
+
+
 
 
 Zadanie 4.11
@@ -492,7 +531,6 @@ Nazwij program: ZadMetodyAbstrakcyjne.cc
 
 
 
-
 ------------------------------------------------------------------------------------------
   6. Podsumowanie zadań
 ------------------------------------------------------------------------------------------
@@ -503,7 +541,7 @@ Nazwij program: ZadMetodyAbstrakcyjne.cc
 
 Zadanie 6.1
 --------------------------------------
-- Zaprojektuj klasę/klasy i umieść funkcje z 5 wybranych zadań z zakresu 1.1-5.6
+- Zaprojektuj klasę/klasy i umieść funkcje z 10 wybranych zadań z zakresu 1.1-5.6
   jako metody danej klasy/klas
 - Deklaracja metod w ciele klasy, a definicja poza,
 - Definicje metod w osobnym pliku nagłówkowym
@@ -529,5 +567,4 @@ Zadanie 6.1
 Zadanie 7.1
 --------------------------------------
 - Stwórz Makefile (lub użyj cmake) do kompilacji programu (programów) z zadania 6.1
-
 
