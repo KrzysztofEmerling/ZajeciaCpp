@@ -3,7 +3,7 @@
 
 Zadanie1::Zadanie1()
 {
-    SetID("ZadStringExample.cc (1.2) - Prezentacja działana funkcji z biblioteki string.");
+    SetID("ZadStringExample.cc", "Prezentacja działana funkcji z biblioteki string.", 1, 2);
 }
 
 void Zadanie1::Present()

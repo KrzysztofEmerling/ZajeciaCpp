@@ -117,7 +117,7 @@ String Zadanie6::SaveFEN(const Flags flags, const int board[8][8])
 
 Zadanie6::Zadanie6()
 {
-    SetID("ZadLStringStream.cc (4.0) - program pokazuje zastosowanie string stream na uproszczonym formaterze FEN.");
+    SetID("ZadLStringStream.cc", "Program pokazuje zastosowanie string stream na uproszczonym formaterze FEN.", 4, 0);
 }
 void Zadanie6::Present()
 {

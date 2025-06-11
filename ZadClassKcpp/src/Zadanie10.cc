@@ -23,7 +23,7 @@ uint8_t Zadanie10::cstrToBits(char (&tab)[8])
 
 Zadanie10::Zadanie10()
 {
-    SetID("LBitoweOperatoryLogiczneSingleVariable.cc (3.15) - Program wczytuje liczbę binarną poprzez podawwanie '0' i '1'.");
+    SetID("LBitoweOperatoryLogiczneSingleVariable.cc", "Program wczytuje liczbę binarną poprzez podawwanie '0' i '1'.", 3, 15);
 }
 void Zadanie10::Present()
 {

@@ -68,7 +68,7 @@ double Zadanie3::MaclaurinCos(double rad, bool message)
 
 Zadanie3::Zadanie3()
 {
-    SetID("ZadMainExample.cc (1.3) - Zadanie pokazuje użycie bloku extern (poza klasą), musiało zostać zmodyfikowane z braku możliwości przekazania argv.");
+    SetID("ZadMainExample.cc", "Zadanie pokazuje użycie bloku extern (poza klasą), musiało zostać zmodyfikowane z braku możliwości przekazania argv.", 1, 3);
 }
 void Zadanie3::Present()
 {

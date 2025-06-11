@@ -52,7 +52,7 @@ double Kolo::dystans(double pole)
 
 Zadanie4::Zadanie4()
 {
-    SetID("ZadMetodyAbstrakcyjne.cc (5.6) - Program pokazuje działanie polimorfizmu.");
+    SetID("ZadMetodyAbstrakcyjne.cc", "Program pokazuje działanie polimorfizmu.", 5, 6);
 }
 void Zadanie4::Present()
 {

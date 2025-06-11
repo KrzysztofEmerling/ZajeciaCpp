@@ -21,7 +21,7 @@ void Zadanie9::incrementTab(int (&tab)[N], int increment)
 
 Zadanie9::Zadanie9()
 {
-    SetID("ZadPrzekazywanieTablicZpodaniemRozmiaru.cc (2.6) - Program przekazuje tablice z zachowaniem rozmiaru za pomocą konstrukcji template<>.");
+    SetID("ZadPrzekazywanieTablicZpodaniemRozmiaru.cc", "Program przekazuje tablice z zachowaniem rozmiaru za pomocą konstrukcji template<>.", 2, 6);
 }
 void Zadanie9::Present()
 {

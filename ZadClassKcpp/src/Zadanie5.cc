@@ -19,7 +19,7 @@ bool Zadanie5::CzyParzysta_t(int val)
 
 Zadanie5::Zadanie5()
 {
-    SetID("ZadanieParzysta.cc (4.7) - Program pokazuje 3 sposoby sprawdzenia parzystości.");
+    SetID("ZadanieParzysta.cc", "Program pokazuje 3 sposoby sprawdzenia parzystości.", 4, 7);
 }
 void Zadanie5::Present()
 {

@@ -27,7 +27,7 @@ void Zadanie8::calculateCircleAreas(double Rs[], size_t len, double *&areas)
 
 Zadanie8::Zadanie8()
 {
-    SetID("ZadZwracanie.cc (2.1) - Program pokazuje 4 sposoby zwracania wartości z funkcji.");
+    SetID("ZadZwracanie.cc", "Program pokazuje 4 sposoby zwracania wartości z funkcji.", 2, 1);
 }
 void Zadanie8::Present()
 {

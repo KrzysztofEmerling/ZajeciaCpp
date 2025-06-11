@@ -3,7 +3,7 @@
 
 Zadanie7::Zadanie7()
 {
-    SetID("ZadPetle.cc (4.9) - Program pokazuje rużnicę między wszystkimi typami pętli w c++.");
+    SetID("ZadPetle.cc", "Program pokazuje rużnicę między wszystkimi typami pętli w c++.", 4, 9);
 }
 void Zadanie7::Present()
 {
