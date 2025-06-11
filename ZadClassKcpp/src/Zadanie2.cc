@@ -19,7 +19,7 @@ std::ostream &operator<<(std::ostream &os, const Osoba &osoba)
 
 Zadanie2::Zadanie2()
 {
-    SetID("ZadEnumExample.cc");
+    SetID("ZadEnumExample.cc (1.0) - Przykład użycia enum do podawania miesięcy.");
 }
 void Zadanie2::Present()
 {

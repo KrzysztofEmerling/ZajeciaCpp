@@ -51,13 +51,14 @@ int main()
             std::cout << "Koniec programu.\n";
             isRunning = false;
         }
-
-        if (wybor < 1 || wybor > (int)zadania.size())
+        else if (wybor < 1 || wybor > (int)zadania.size())
         {
             std::cout << "Nieprawidłowy numer zadania, spróbuj ponownie.\n";
             continue;
         }
-
-        zadania[wybor - 1]->Present();
+        else
+        {
+            zadania[wybor - 1]->Present();
+        }
     }
 }
